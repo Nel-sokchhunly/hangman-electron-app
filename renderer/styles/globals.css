@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-yellow-50;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+}
+
+@layer components {
+  .root {
+    @apply flex flex-col justify-start items-center h-screen w-screen;
+  }
+}
